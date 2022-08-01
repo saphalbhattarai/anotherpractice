@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        [class*="col-"] {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+            padding: 15px;
+        }
+
+        @media (min-width:600px) {
+            .col-l-6 {
+                width: 50%;
+            }
+
+        }
+        h1{
+            line-height: 45px;
+        }
+        p{line-height: 40px;}
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-l-6">
+            <img src="./img/m-blog-1.jpg" alt="">
+        </div>
+        <div class="col-l-6">
+
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id cumque alias a eveniet ipsa accusantium
+                perspiciatis expedita voluptas, magnam aperiam laudantium veritatis omnis officia enim libero harum!
+                Dolorum, fugiat perferendis cumque dignissimos laborum corporis praesentium. Unde culpa reprehenderit
+                nesciunt ducimus sapiente sunt nihil quam aperiam.</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
